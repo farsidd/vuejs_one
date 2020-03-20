@@ -1,0 +1,12 @@
+.color-box {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: inline-block;
+}
+.makeBtnDisabled {
+    pointer-events: none;
+}
+.linethrough{
+    text-decoration: line-through;
+}
