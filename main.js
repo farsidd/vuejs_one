@@ -50,6 +50,7 @@ methods: {
 onSubmit(){
     if(this.reviewerName && this.reviewerRating && this.Message)
     {
+        this.errors = [];
         let productReview = {
             name: this.reviewerName,
             rating: this.reviewerRating,
